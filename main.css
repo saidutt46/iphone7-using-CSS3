@@ -154,6 +154,7 @@ h3 {
   border-bottom-left-radius: 20%;
 }
 
+
 /* black screen */
 
 .black {
@@ -283,4 +284,87 @@ h3 {
   text-shadow: 0 2px 6px 2px whitesmoke;
   top: 44%;
   left: 42%;
+}
+
+
+
+
+@media (max-width: 568px) {
+body {
+  position: relative;
+  width: 100%;
+  height: 200vh;
+  font-family: 'Raleway', sans-serif;
+  text-align:center;
+}
+.white {
+  width: 80%;
+  height: 40%;
+  background:  rgba(238, 238, 238, 0.95);
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  border-radius: 8.8%;
+  box-shadow: 0 0 30px gray;
+}
+.black {
+  width: 80%;
+  height: 40%;
+  background: #070103;
+  position: absolute;
+  top: 55%;
+  left: 10%;
+  border-radius: 8.8%;
+  box-shadow: 0 0 30px gray;
+}
+}
+
+
+
+@media screen and (min-width: 568px) and (max-width: 768px) {
+
+  .white {
+    width: 32%;
+    height: 76%;
+    background:  rgba(238, 238, 238, 0.95);
+    position: absolute;
+    top: 20%;
+    left: 12%;
+    border-radius: 8.8%;
+    box-shadow: 0 0 30px gray;
+  }
+  .black {
+    width: 32%;
+    height: 76%;
+    background: #070103;
+    position: absolute;
+    top: 20%;
+    left: 56%;
+    border-radius: 8.8%;
+    box-shadow: 0 0 30px gray;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+  .white {
+    width: 26%;
+    height: 74%;
+    background:  rgba(238, 238, 238, 0.95);
+    position: absolute;
+    top: 20%;
+    left: 12%;
+    border-radius: 8.8%;
+    box-shadow: 0 0 30px gray;
+  }
+  .black {
+    width: 26%;
+    height: 74%;
+    background: #070103;
+    position: absolute;
+    top: 20%;
+    left: 62%;
+    border-radius: 8.8%;
+    box-shadow: 0 0 30px gray;
+  }
 }

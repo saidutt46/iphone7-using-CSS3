@@ -286,20 +286,19 @@ h3 {
   left: 42%;
 }
 
-
-
-
 @media (max-width: 568px) {
+
 body {
   position: relative;
   width: 100%;
   height: 200vh;
   font-family: 'Raleway', sans-serif;
   text-align:center;
+  background: rgba(254, 254, 254, 0.98);
 }
 .white {
   width: 80%;
-  height: 40%;
+  height: 30%;
   background:  rgba(238, 238, 238, 0.95);
   position: absolute;
   top: 10%;
@@ -309,10 +308,10 @@ body {
 }
 .black {
   width: 80%;
-  height: 40%;
+  height: 30%;
   background: #070103;
   position: absolute;
-  top: 55%;
+  top: 45%;
   left: 10%;
   border-radius: 8.8%;
   box-shadow: 0 0 30px gray;

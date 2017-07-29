@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  font-family: 'Raleway', sans-serif;
+  text-align:center;
+}
+h1 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+p {
+  font-size: .9rem;
+  margin-bottom: 10px;
+}
+h3 {
+  font-weight: 400;
+}
+
+.white {
+  width: 18%;
+  height: 76%;
+  background:  rgba(238, 238, 238, 0.95);
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  border-radius: 8.8%;
+  box-shadow: 0 0 30px gray;
+}
+
+.white .screen {
+  width: 95%;
+  height: 78%;
+  position: absolute;
+  top: 11%;
+  left: 2.5%;
+  background: #222222;
+  border: 1px solid #222220;
+  text-align: center;
+  color:white;
+}
+
+.white .screen i {
+  position:absolute;
+  font-size: 3rem;
+  color: rgba(238, 238, 238, 0.93);
+  text-shadow: 0 2px 6px 2px whitesmoke;
+  top: 44%;
+  left: 42%;
+}
+
+.white .home-button {
+  position: absolute;
+  width: 16%;
+  height: 8%;
+  border-radius: 50%;
+  background: #F7F7F7;
+  top: 90.5%;
+  left: 41%;
+  border: 2px solid #CC931F;
+}
+.white .camera {
+  position : absolute;
+  width: 4.8%;
+  height: 2.4%;
+  background: rgba(26, 26, 26, 0.89);
+  border-radius: 50%;
+  top: 4%;
+  left: 29%;
+  border: 1px solid #211D1D;
+}
+.white .camera .lens {
+  position: absolute;
+  width: 60%;
+  height: 40%;
+  border-radius: 50%;
+  background: #505A5E;
+  top: 18%;
+  left: 26%;
+}
+
+.white .rec {
+  position: relative;
+  width: 24%;
+  height: 1%;
+  background-image:
+    repeating-linear-gradient(
+      45deg,
+      rgba(37, 37, 37, 0.9),
+      rgb(48, 48, 48) 3px,
+      rgb(66, 66, 66) 2px,
+      rgb(10, 10, 10) 2px /* determines size */
+    );
+  top: 4.8%;
+  left: 40%;
+  margin: 0;
+  border-radius: 18%;
+}
+
+.white .sensor {
+  position: absolute;
+  width: 2%;
+  height: 1%;
+  border-radius: 50%;
+  top: 2%;
+  background: #111;
+  left: 50%;
+}
+.white .volume1 {
+  position: absolute;
+  width: 1%;
+  background: rgb(112, 112, 112);
+  height: 8%;
+  top: 22%;
+  left: -1%;
+  border-top-left-radius: 20%;
+  border-bottom-left-radius: 20%;
+}
+
+.white .volume2 {
+  position: absolute;
+  width: 1%;
+  background: rgb(112, 112, 112);
+  height: 8%;
+  top: 32%;
+  left: -1%;
+  border-top-left-radius: 20%;
+  border-bottom-left-radius: 20%;
+}
+
+.white .silencer {
+  position: absolute;
+  width: 1%;
+  background: rgb(112, 112, 112);
+  height: 4%;
+  top: 11.5%;
+  left: -1%;border-top-left-radius: 20%;
+  border-bottom-left-radius: 20%;
+}
+
+.white .lock-screen {
+  width: 1%;
+  position:absolute;
+  background: rgb(112, 112, 112);
+  height: 8%;
+  top: 24%;
+  right: -1%;border-top-left-radius: 20%;
+  border-bottom-left-radius: 20%;
+}
+
+/* black screen */
+
+.black {
+  width: 18%;
+  height: 76%;
+  background: #070103;
+  position: absolute;
+  top: 20%;
+  left: 62%;
+  border-radius: 8.8%;
+  box-shadow: 0 0 30px gray;
+}
+.black .screen {
+  width: 95%;
+  height: 78%;
+  position: absolute;
+  top: 11%;
+  left: 2.5%;
+  background: #171717;
+  border: 1px solid #222220;
+  text-align:center;
+}
+
+.black .home-button {
+  position: absolute;
+  width: 16%;
+  height: 8%;
+  border-radius: 50%;
+  background: rgba(23, 23, 23, 0.89);
+  top: 90.5%;
+  left: 41%;
+  border: 2px solid rgba(#000000, 0.8);
+}
+.black .camera {
+  position : absolute;
+  width: 4.8%;
+  height: 2.4%;
+  background: rgba(26, 26, 26, 0.89);
+  border-radius: 50%;
+  top: 4%;
+  left: 29%;
+  border: 1px solid #211D1D;
+}
+.black .camera .lens {
+  position: absolute;
+  width: 60%;
+  height: 40%;
+  border-radius: 50%;
+  background:rgba(87, 86, 88, 0.8);
+  top: 18%;
+  left: 26%;
+}
+
+.black .rec {
+  position: relative;
+  width: 24%;
+  height: 1%;
+  background-image:
+    repeating-linear-gradient(
+      45deg,
+      rgba(37, 37, 37, 0.9),
+      rgb(48, 48, 48) 3px,
+      rgb(66, 66, 66) 2px,
+      rgb(10, 10, 10) 2px /* determines size */
+    );
+  top: 4.8%;
+  left: 40%;
+  margin: 0;
+  border-radius: 18%;
+}
+
+.black .sensor {
+  position: absolute;
+  width: 2%;
+  height: 1%;
+  border-radius: 50%;
+  top: 2%;
+  background: #111;
+  left: 50%;
+}
+.black .volume1 {
+  position: absolute;
+  width: 1%;
+  background: #242424;
+  height: 8%;
+  top: 22%;
+  left: -1%;
+  border-top-left-radius: 20%;
+  border-bottom-left-radius: 20%;
+}
+
+.black .volume2 {
+  position: absolute;
+  width: 1%;
+  background: #242424;
+  height: 8%;
+  top: 32%;
+  left: -1%;
+  border-top-left-radius: 20%;
+  border-bottom-left-radius: 20%;
+}
+
+.black .silencer {
+  position: absolute;
+  width: 1%;
+  background: #242424;
+  height: 4%;
+  top: 11.5%;
+  left: -1%;border-top-left-radius: 20%;
+  border-bottom-left-radius: 20%;
+}
+
+.black .lock-screen {
+  width: 1%;
+  position:absolute;
+  background: #242424;
+  height: 8%;
+  top: 24%;
+  right: -1%;border-top-left-radius: 20%;
+  border-bottom-left-radius: 20%;
+}
+
+.black .screen i {
+  position:absolute;
+  font-size: 3rem;
+  color: rgba(238, 238, 238, 0.93);
+  text-shadow: 0 2px 6px 2px whitesmoke;
+  top: 44%;
+  left: 42%;
+}
